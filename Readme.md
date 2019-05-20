@@ -16,4 +16,4 @@ Once set up correctly, the entire system runs with a simple call `roslaunch stat
 
 ## Demonstration
 
-[![Watch the video](https://i.ibb.co/DMGS357/deniro.jpg)](https://www.youtube.com/watch?v=yGSAi70YS4k&feature=youtu.be)
+[![Watch the video](https://i.ibb.co/FYW3c1S/deniro-1.jpg)](https://www.youtube.com/watch?v=yGSAi70YS4k&feature=youtu.be)
