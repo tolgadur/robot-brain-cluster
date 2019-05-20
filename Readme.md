@@ -16,4 +16,4 @@ Once set up correctly, the entire system runs with a simple call `roslaunch stat
 
 ## Demonstration
 
-[![Watch the video]()](https://www.youtube.com/watch?v=yGSAi70YS4k&feature=youtu.be)
+[![Watch the video](VIDEO ID)](https://www.youtube.com/watch?v=yGSAi70YS4k&feature=youtu.be)
