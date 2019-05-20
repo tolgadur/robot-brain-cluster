@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!--
+Launch file for Speech Recognition stack.
+author: Fabian Falck
+date: 04/18
+-->
+
+<launch>
+
+    <!-- Launch speech recognition server -->
+    <node pkg="audio_out" type="audio_out_service.py" name="audio_out" output="screen"/>
+
+
+</launch>

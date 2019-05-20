@@ -1,0 +1,25 @@
+<!-- Launch file for postion controller of Quickie to correct deviation from straight line -->
+<!-- Prepared by: Emilk -->
+
+<launch>
+
+	<node name="imu_publisher" pkg="bosch_imu_emilk" type="imu_publisher_newmessage.py" required="true" /> <!-- 'required="true"' field used so that launch file is aborted if IMU is not running -->
+	<node name="linear_speed_publisher" pkg="bosch_imu_emilk" type="joystick_publisher.py"/>
+	<node name="reference_publisher" pkg="bosch_imu_emilk" type="reference_publisher.py" output="screen"/>
+	<node name="controller_heading" pkg="pid" type="controller_straight_no_offset" clear_params="true" >
+		<remap from="setpoint" to="ref_theta"/>
+		<remap from="state" to="IMU_theta"/>
+		<remap from="control_effort" to="angular_speed"/>
+		<param name="Kp" value="1.5" />
+		<param name="Ki" value="4" />
+		<param name="Kd" value="1.5" />
+		<param name="windup_limit" value="100" />
+		<param name="lower_limit" value="-100" />
+		<param name="upper_limit" value="100" />
+	</node>
+	<node name="base_commands_publisher" pkg="bosch_imu_emilk" type="base_commands_publisher.py"/>
+	<node name="ros2mbedserial" pkg="bosch_imu_emilk" type="ros2mbedserial_read_write.py"/>
+	<!-- node name="ros2mbedserial" pkg="bosch_imu_emilk" type="ros2mbedserial.py" output="screen" / -->
+
+
+</launch>

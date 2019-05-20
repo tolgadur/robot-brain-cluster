@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="face_train_pkg" type="face_training_service.py">
+
+</launch>

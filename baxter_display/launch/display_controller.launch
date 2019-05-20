@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!--
+Launch file for Baxter Display.
+author: Nicolas Tobis
+date: 02/19
+-->
+
+<launch>
+
+    <!-- Launch speech recognition server -->
+    <node pkg="baxter_display" type="display_controller.py" name="display_controller"
+      output="screen"/>
+
+
+</launch>

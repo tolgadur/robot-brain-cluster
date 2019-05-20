@@ -1,0 +1,5 @@
+<launch>
+    <machine name="robin_6" address="192.168.0.228" password="robinlab"
+            env-loader="~/neuronerds/cluster.sh" user="robin" timeout="30" > </machine>
+    <node machine="robin_6" name="robin_6" pkg="face_spoofing" type="face_training_service.py" cwd="node" output="screen"/>
+</launch>

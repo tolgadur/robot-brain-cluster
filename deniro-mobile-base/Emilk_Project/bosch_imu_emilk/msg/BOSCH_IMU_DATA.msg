@@ -1,0 +1,5 @@
+Header header
+float32 full_turns
+geometry_msgs/Vector3 euler_angles
+geometry_msgs/Vector3 angular_velocity
+geometry_msgs/Vector3 linear_acceleration

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!--
+Launch file for Pointing.
+author: Nicolas Tobis
+date: 04/19
+-->
+
+<launch>
+
+    <!-- Launch speech recognition server -->
+    <node pkg="pointing" type="pointing_service.py" name="pointing" output="screen"/>
+
+
+</launch>

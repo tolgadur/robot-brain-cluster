@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<!--
+# Launch file for the State Machine stack.
+# Author: Sagar Doshi
+# Date: 05/18
+-->
+
+<launch>
+
+    <!-- Launch initial parameter -->
+<!--
+    <node pkg="state_machine" type="initialise_parameters.py" name="set_parameters" output="screen"/>
+-->
+
+    <!-- Launch Hotword Detection -->
+    <include file="$(find hotword)/launch/hotword.launch"/>
+
+    <!-- Launch speech recognition -->
+    <include file="$(find speech_rec)/launch/speech_rec.launch"/>
+
+    <!-- Launch interpreter -->
+    <include file="$(find interpreter)/launch/interpreter.launch"/>
+
+    <!-- Launch Environment -->
+    <!-- <include file="$(find environment)/launch/environment.launch"/> -->
+
+    <!-- Launch Camera -->
+    <!-- <include file="$(find environment)/launch/usb_cam-parent.launch"/> -->
+
+    <!-- Launch Object Detection -->
+    <!-- <include file="$(find state_machine)/launch/object_dect.launch"/> -->
+
+    <!-- Launch Face Training -->
+    <!-- <include file="$(find face_training)/launch/face_training.launch"/> -->
+
+    <!-- Launch Audio Out -->
+    <include file="$(find audio_out)/launch/audio_out.launch"/>
+
+    <!-- Launch Pointing -->
+    <!-- <include file="$(find pointing)/launch/pointing.launch"/> -->
+
+    <!-- Launch Audio Out -->
+    <include file="$(find baxter_display)/launch/display_controller.launch"/>
+
+    <!-- Start the brain -->
+    <node pkg="state_machine" type="sm_main.py" name="sm_main" output="screen">
+    </node>
+
+
+</launch>

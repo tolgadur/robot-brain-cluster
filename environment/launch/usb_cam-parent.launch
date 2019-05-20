@@ -1,0 +1,4 @@
+<launch>
+  <node name="usb_cam_parent" pkg="environment" type="usb_cam_child.sh" >
+  </node>
+</launch>

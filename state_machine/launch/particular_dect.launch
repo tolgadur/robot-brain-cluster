@@ -1,0 +1,31 @@
+<launch>
+    <machine name="robin_12" address="192.168.0.108" password="deniro"
+            env-loader="~/neuronerds/cluster.sh" user="robin" timeout="30" > </machine>
+<!--
+    <node machine="robin_12" name="find_object_2d_left" pkg="find_object_2d" type="find_object_2d" cwd="node">
+      <remap from="image" to="usb_cam_left/image_raw"/>
+      <param name="gui" value="false"/>
+      <param name="objects_path" value="/home/robin/neuronerds/src/find_particulars_pkg/src/photos_of_particular_objects"/>
+      <remap from="objects" to="particular_left" />
+    </node> -->
+
+    <node machine="robin_12" name="find_object_2d_middle" pkg="find_object_2d" type="find_object_2d" cwd="node">
+      <remap from="image" to="usb_cam_middle/image_raw"/>
+      <param name="gui" value="false"/>
+      <param name="objects_path" value="/home/robin/neuronerds/src/find_particulars_pkg/src/photos_of_particular_objects"/>
+      <remap from="objects" to="particular_middle" />
+    </node>
+
+    <!-- <node machine="robin_12" name="find_object_2d_right" pkg="find_object_2d" type="find_object_2d" cwd="node">
+      <remap from="image" to="usb_cam_right/image_raw"/>
+      <param name="gui" value="false"/>
+      <param name="objects_path" value="/home/robin/neuronerds/src/find_particulars_pkg/src/photos_of_particular_objects"/>
+      <remap from="objects" to="particular_right" />
+    </node> -->
+
+
+    <!-- <node machine="robin_12" name="particulars_left" pkg="find_particulars_pkg" type="find_particulars.py" cwd="node" args="usb_cam_left/image_raw 0"/> -->
+    <node machine="robin_12" name="particulars_middle" pkg="find_particulars_pkg" type="find_particulars.py" cwd="node" args="usb_cam_middle/image_raw 1"/>
+    <!-- <node machine="robin_12" name="particulars_right" pkg="find_particulars_pkg" type="find_particulars.py" cwd="node" args="usb_cam_right/image_raw 2"/> -->
+
+</launch>

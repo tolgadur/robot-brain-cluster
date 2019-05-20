@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!--
+Launch file for Speech Recognition stack.
+author: Fabian Falck
+date: 04/18
+-->
+
+<launch>
+
+    <!-- Launch Rotation Service -->
+    <node pkg="bosch_imu_emilk" type="rotation_service.py" name="rotation"/>
+
+
+</launch>

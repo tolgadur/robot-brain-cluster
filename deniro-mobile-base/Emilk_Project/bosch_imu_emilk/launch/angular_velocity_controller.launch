@@ -1,0 +1,24 @@
+<!-- Launch file for angular velocity control (in rad/s) of Quickie -->
+<!-- Prepared by: Emilk -->
+
+<launch>
+
+	<node name="imu_publisher" pkg="bosch_imu_emilk" type="imu_publisher_newmessage.py" required="true"/> <!-- 'required="true"' field used so that launch file is aborted if IMU is not running -->
+	<node name="reference_publisher" pkg="bosch_imu_emilk" type="reference_speed_publisher.py" output="screen" output="screen"/>
+	<node name="controller_angular_velocity" pkg="pid" type="controller.cpp" clear_params="true" >
+		<!-- <remap from="setpoint" to="ref_theta"/-->
+		<remap from="state" to="IMU_rotspeed"/>
+		<remap from="control_effort" to="angular_speed"/>
+		<param name="Kp" value="30" />
+		<param name="Ki" value="20" />
+		<param name="Kd" value="0" />
+		<param name="windup_limit" value="50" />
+		<param name="lower_limit" value="-100" />
+		<param name="upper_limit" value="100" />
+	</node>
+	<node name="base_commands_publisher" pkg="bosch_imu_emilk" type="base_commands_publisher.py"/>
+	<node name="ros2mbedserial" pkg="bosch_imu_emilk" type="ros2mbedserial_read_write.py"/>
+	<!-- node name="ros2mbedserial" pkg="bosch_imu_emilk" type="ros2mbedserial.py" output="screen" / -->
+
+
+</launch>

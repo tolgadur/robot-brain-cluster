@@ -1,0 +1,5 @@
+<launch>
+    <machine name="robin_16" address="192.168.0.115" password="deniro"
+            env-loader="~/img_workspace/cluster.sh" user="robin" timeout="30" > </machine>
+    <node machine="robin_16" name="robin20" pkg="yolo_pkg" type="database.py" cwd="node" />
+</launch>

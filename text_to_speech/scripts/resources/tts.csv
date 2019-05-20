@@ -1,0 +1,71 @@
+lang_code	code	count	real	camera	category	component
+en-EN	DETECT_FACE	0	1		trunk	I can’t see anybody.
+en-EN	DETECT_FACE	1	1		trunk	I am {} percent sure that I can see {} 
+en-EN	DETECT_FACE	1	1	0	position	behind me on my left.
+en-EN	DETECT_FACE	1	1	1	position	in front of me.
+en-EN	DETECT_FACE	1	1	2	position	behind me on my right.
+en-EN	DETECT_FACE	2	1		trunk	I can see 
+en-EN	DETECT_FACE	2	1		trunk_extension	{} 
+en-EN	DETECT_FACE	2	1		end	and {}.
+en-EN	DETECT_FACE	1	0		trunk	I am {} percent sure that I can see {}. Not the real one though.
+en-EN	DETECT_FACE	2	0		trunk	I can see 
+en-EN	DETECT_FACE	2	0		trunk_extension	{} 
+en-EN	DETECT_FACE	2	0		end	and {}. But at least one of them is fake.
+en-EN	DETECT_OBJECT	0	1		trunk	I can’t see any objects.
+en-EN	DETECT_OBJECT	1	1		trunk	I am {} percent sure that I can see a {} 
+en-EN	DETECT_OBJECT	1	1	0	position	behind me on my left.
+en-EN	DETECT_OBJECT	1	1	1	position	in front of me.
+en-EN	DETECT_OBJECT	1	1	2	position	behind me on my right.
+en-EN	DETECT_OBJECT	2	1		trunk	I can see {} {}, 
+en-EN	DETECT_OBJECT	2	1		trunk_extension	{} {}, 
+en-EN	DETECT_OBJECT	2	1		end	and {} {}.
+en-EN	FIND_OBJECT	0	1		trunk	I cannot see any {}.
+en-EN	FIND_OBJECT	1	1		trunk	I am {} percent sure that the {} is here 
+en-EN	FIND_OBJECT	1	1	0	position	behind me on my left.
+en-EN	FIND_OBJECT	1	1	1	position	in front of me.
+en-EN	FIND_OBJECT	1	1	2	position	behind me on my right.
+en-EN	FIND_OBJECT	2	1		trunk	I can actually see more than one {}. I think there are {}. One of them is here.
+en-EN	FIND_OBJECT	2	1		trunk_extension	 
+en-EN	FIND_OBJECT	2	1		end	 
+en-EN	FIND_OWNER	0	1		trunk	I don’t think anybody has a {}.
+en-EN	FIND_OWNER	1	1		trunk	I am {} percent confident that the {} belongs to {}.
+en-EN	FIND_OWNER	1	1	0	position	behind me on my left.
+en-EN	FIND_OWNER	1	1	1	position	in front of me.
+en-EN	FIND_OWNER	1	1	2	position	behind me on my right.
+en-EN	FIND_OWNER	2	1		trunk	I think that the following people have a {}: 
+en-EN	FIND_OWNER	2	1		trunk_extension	{} 
+en-EN	FIND_OWNER	2	1		end	and {}.
+en-EN	FIND_OWNER	2	0		trunk_extension	{} 
+en-EN	FIND_OWNER	2	0		end	and {}. But at least one of them is fake.
+en-EN	FIND_PERSON	0	1		trunk	I cannot see {}.
+en-EN	FIND_PERSON	1	1		trunk	I am {} percent sure that {} is here 
+en-EN	FIND_PERSON	1	1	0	position	behind me on my left.
+en-EN	FIND_PERSON	1	1	1	position	in front of me.
+en-EN	FIND_PERSON	1	1	2	position	behind me on my right.
+en-EN	FIND_PERSON	2	1		trunk	Yes, I can actually see {} more than once. I knew I shouldn’t have had that last pint last night. One of them is here.
+en-EN	FIND_PERSON	2	1		trunk_extension	 
+en-EN	FIND_PERSON	2	1		end	 
+en-EN	FIND_PERSON	2	0		trunk	Yes, I can actually see {} more than once. At least one of them is fake.
+en-EN	FIND_PERSON	2	0		trunk_extension	 
+en-EN	FIND_PERSON	2	0		end	 
+en-EN	FIND_PERSON	1	0		trunk	Yes, I am {} percent sure that a fake {} is here, 
+en-EN	VERIFY_FACE	0	1		trunk	No, I cannot see {}.
+en-EN	VERIFY_FACE	1	1		trunk	Yes, I am {} percent sure that I can see {} 
+en-EN	VERIFY_FACE	1	1	0	position	behind me on my left.
+en-EN	VERIFY_FACE	1	1	1	position	in front of me.
+en-EN	VERIFY_FACE	1	1	2	position	behind me on my right.
+en-EN	VERIFY_FACE	2	1		trunk	Yes, I can actually see {} more than once. I knew I shouldn’t have had that last pint last night.
+en-EN	VERIFY_FACE	1	0		trunk	Yes, I am {} percent sure that I can see {}. Not the real one though.
+en-EN	VERIFY_FACE	2	0		trunk	I can actually see {} more than once. But at least one of them is fake.
+en-EN	VERIFY_FACE	2	1		trunk_extension	 
+en-EN	VERIFY_FACE	2	1		end	 
+en-EN	VERIFY_FACE	2	0		trunk_extension	 
+en-EN	VERIFY_FACE	2	0		end	 
+en-EN	VERIFY_OBJECT	0	1		trunk	No, I cannot see any {}.
+en-EN	VERIFY_OBJECT	1	1		trunk	Yes, I am {} percent sure that I can see exactly one {} 
+en-EN	VERIFY_OBJECT	1	1	0	position	behind me on my left.
+en-EN	VERIFY_OBJECT	1	1	1	position	in front of me.
+en-EN	VERIFY_OBJECT	1	1	2	position	behind me on my right.
+en-EN	VERIFY_OBJECT	2	1		trunk	Yes, I can actually see more than one {}. I think there are {}.
+en-EN	VERIFY_OBJECT	2	1		trunk_extension	 
+en-EN	VERIFY_OBJECT	2	1		end	 

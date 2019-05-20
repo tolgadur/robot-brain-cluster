@@ -1,0 +1,12 @@
+	<launch>
+
+	<node name="imu_publisher" pkg="bosch_imu_emilk" type="imu_publisher_newmessage.py" required="true" output="screen"/>
+	<node name="reference_publisher" pkg="bosch_imu_emilk" type="reference_publisher.py" output="screen"/>
+	<node name="controller_heading" pkg="bosch_imu_emilk" type="controller_heading_final.py" >
+		<param name="kp" value="1" />
+		<param name="kd" value="10" />
+	</node>
+	<!-- node name="ros2mbedserial" pkg="bosch_imu_emilk" type="ros2mbedserial.py" output="screen" / -->
+
+
+</launch>

@@ -1,0 +1,7 @@
+string voice_input
+string lang_code
+---
+int8 instruction_id
+string[] faces
+string[] objects
+string[] conflicts

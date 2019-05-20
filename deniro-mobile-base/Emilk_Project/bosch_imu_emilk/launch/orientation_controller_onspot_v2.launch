@@ -1,0 +1,24 @@
+<!-- Launch file for postion controller of Quickie to control its heading only (rotates on the spot) -->
+
+<launch>
+
+	<node name="imu_publisher" pkg="bno055_usb_stick" type="bno055_usb_stick_node" required="true" /> <!-- 'required="true"' field used so that launch file is aborted if IMU is not running -->
+	<!-- <node name="rotation_service" pkg="bosch_imu_emilk" type="rotation_service.py" output="screen"/> -->
+	<node name="reference_publisher" pkg="bosch_imu_emilk" type="reference_publisher.py" output="screen"/>
+	<node name="controller_heading" pkg="pid" type="controller" clear_params="true" >
+		<remap from="setpoint" to="ref_theta"/>
+		<remap from="state" to="/imu_heading_rel"/>
+		<remap from="control_effort" to="angular_speed"/>
+		<param name="Kp" value="0.3" />
+		<!-- <param name="Ki" value="0.005" /> -->
+		<param name="Kd" value="0.072" />
+		<param name="windup_limit" value="100" />
+		<param name="lower_limit" value="-100" />
+		<param name="upper_limit" value="100" />
+	</node>
+	<node name="base_commands_publisher" pkg="bosch_imu_emilk" type="base_commands_publisher.py"/>
+	<!-- <node name="ros2mbedserial" pkg="bosch_imu_emilk" type="ros2mbedserial_read_write_new.py" output="screen"/> -->
+	<node name="ros2mbedserial" pkg="bosch_imu_emilk" type="movement_control.py" output="screen" />
+
+
+</launch>

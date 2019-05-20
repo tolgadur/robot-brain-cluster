@@ -1,0 +1,183 @@
+Language	Type	Message
+en-EN	idling	Hey there! I’m De Niro. Just call me, when you need me!
+en-EN	listening	How can I help you?
+en-EN	listening	What's up?
+en-EN	listening	Yes, please?
+de-DE	listening	Wie kann ich helfen?
+de-DE	listening	Ja bitte?
+de-DE	listening	Was geht ab?
+es-ES	listening	Como te puedo ayudar?
+es-ES	listening	Si por favor?
+es-ES	listening	Que pasa?
+it-IT	listening	Come ti posso aiutare?
+it-IT	listening	Si per favore?
+it-IT	listening	Cosa c'e?
+nl-NL	listening	Hoe kan ik helpen?
+nl-NL	listening	Ja, alsjeblieft?
+nl-NL	listening	Wat wil je?
+en-EN	interpretation	Let me check!
+en-EN	interpretation	Let me think about that.
+en-EN	interpretation	Give me a second.
+de-DE	interpretation	Lass mich eben nachschauen.
+de-DE	interpretation	Gib mir eine Sekunde.
+de-DE	interpretation	Warte kurz.
+es-ES	interpretation	Esperame un segundo.
+es-ES	interpretation	Dejame ver.
+es-ES	interpretation	Dejame pensar.
+it-IT	interpretation	Aspetta un momento.
+it-IT	interpretation	Lasciami vedere un attimo.
+it-IT	interpretation	Vediamo.
+nl-NL	interpretation	Wacht even.
+nl-NL	interpretation	Een moment alsjeblieft.
+nl-NL	interpretation	Laat me even kijken.
+en-EN	INVALID_INSTRUCTION_ERROR	Sorry, I didn’t quite catch that. Could you say that again?
+en-EN	INVALID_INSTRUCTION_ERROR	Sorry, could you repeat that please?
+en-EN	INVALID_INSTRUCTION_ERROR	I apologize, I am not familiar with that command. Let’s try again.
+en-EN	NO_OBJECT_SPECIFIED	I don’t know what object to look for. Could you specify?
+en-EN	NO_OBJECT_SPECIFIED	Can you specify an object for me to look for?
+en-EN	NO_OBJECT_SPECIFIED	Please specify an object for me to look for.
+en-EN	NO_NAME_SPECIFIED	I don’t know what person to look for. Could you specify?
+en-EN	NO_NAME_SPECIFIED	Can you specify a person for me to look for?
+en-EN	NO_NAME_SPECIFIED	Please specify a person for me to look for.
+en-EN	INVALID_OBJECT	Sorry, I don’t know what that object is. Could you try again?
+en-EN	INVALID_OBJECT	I’ve never heard of this object unfortunately. Let’s try something else.
+en-EN	INVALID_OBJECT	Glad that you know what that object is. I don’t. Let’s try again.
+en-EN	INVALID_NAME	I don’t know this person. Please try again
+en-EN	INVALID_NAME	Never heard of that person. Can you try again?
+en-EN	INVALID_NAME	Who is this person? Let’s try again.
+en-EN	CHANGE_LANGUAGE	No problem, just call me in a different language.
+de-DE	CHANGE_LANGUAGE	Kein Problem, ruf mich einfach in einer anderen Sprache.
+es-ES	CHANGE_LANGUAGE	No hay problema. Solo llamame en otro idioma.
+it-IT	CHANGE_LANGUAGE	Non c’e problema. Solo chiamami in otra lingua.
+nl-NL	CHANGE_LANGUAGE	Geen probleem. Roep me gewoon in een ander taal.
+es-ES	INVALID_INSTRUCTION_ERROR	Disculpa, no entendí. ¿Puedes repetirlo?
+es-ES	INVALID_INSTRUCTION_ERROR	Puedes repetirlo ¿por favor?
+es-ES	INVALID_INSTRUCTION_ERROR	Lo siento, no conozco ese comando. Volvamos a intentarlo
+es-ES	NO_OBJECT_SPECIFIED	No sé qué comando buscar. ¿Puedes ser más específico?
+es-ES	NO_OBJECT_SPECIFIED	¿Puedes decirme qué comando buscar?
+es-ES	NO_OBJECT_SPECIFIED	Por favor, di un comando.
+es-ES	NO_NAME_SPECIFIED	No sé a que persona buscar.
+es-ES	NO_NAME_SPECIFIED	Por favor, dime a quién buscar.
+es-ES	NO_NAME_SPECIFIED	Disculpa, no sé que persona es esa. Volvamos a intentarlo.
+es-ES	INVALID_OBJECT	Wow, ese objeto no lo conozco pero intentemos algo diferente.
+es-ES	INVALID_OBJECT	Qué bien que sepas qué es eso, yo no. Volvamos a intentarlo.
+es-ES	INVALID_OBJECT	Qué es ese objecto? Volvamos a intentarlo.
+es-ES	INVALID_NAME	No conozco a esa persona, volvamos a intentarlo
+es-ES	INVALID_NAME	Nunca había escuchado de esa persona. ¿Podrías intentarlo de nuevo?
+es-ES	INVALID_NAME	¿Quién es esa persona? Intentemos otra vez
+de-DE	INVALID_INSTRUCTION_ERROR	Sorry, ich habe das nicht ganz verstanden. Könntest du das noch einmal sagen?
+de-DE	INVALID_INSTRUCTION_ERROR	Entschuldigung, kannst du das bitte wiederholen?
+de-DE	INVALID_INSTRUCTION_ERROR	Entschuldigung, ich bin mit diesem Befehl nicht vertraut. Lasst es uns noch einmal versuchen.
+de-DE	NO_OBJECT_SPECIFIED	Ich weiß nicht, nach welchem Objekt ich suchen soll. Kannst du das näher erläutern?
+de-DE	NO_OBJECT_SPECIFIED	Kannst du ein Objekt angeben, nach dem ich suchen soll?
+de-DE	NO_OBJECT_SPECIFIED	Bitte gib ein Objekt an, nach dem ich suchen soll.
+de-DE	NO_NAME_SPECIFIED	Ich weiß nicht, nach welcher Person ich suchen soll.Kannst du das näher erläutern?
+de-DE	NO_NAME_SPECIFIED	Kannst du eine Person angeben, nach der ich suchen soll?
+de-DE	NO_NAME_SPECIFIED	Bitte gib eine Person an, nach der ich suchen soll.
+de-DE	INVALID_OBJECT	Sorry, ich weiß nicht, was das für ein Objekt ist. Kannst du es noch einmal versuchen?
+de-DE	INVALID_OBJECT	Von diesem Objekt habe ich leider noch nie gehört. Versuchen wir etwas anderes.
+de-DE	INVALID_OBJECT	Schön, dass du weißt, was das Objekt ist. Ich weiß es nicht. Lasst es uns noch einmal versuchen.
+de-DE	INVALID_NAME	Ich kenne diese Person nicht. Bitte versuch es erneut
+de-DE	INVALID_NAME	Ich habe noch nie von dieser Person gehört. Kannst du es noch einmal versuchen?
+de-DE	INVALID_NAME	Wer ist diese Person? Lass es uns noch einmal versuchen.
+it-IT	INVALID_INSTRUCTION_ERROR	Scusami non l’ho capito. Potresti repitirlo?
+it-IT	INVALID_INSTRUCTION_ERROR	Dimmilo di nuovo per favore.
+it-IT	INVALID_INSTRUCTION_ERROR	Scusami, non conosco questo comando. Proviamolo di nuovo.
+it-IT	NO_OBJECT_SPECIFIED	Mi dici che oggetto stai cercando?
+it-IT	NO_OBJECT_SPECIFIED	Non ho sentito che oggetto stai cercando. Lo potresti ripetere?
+it-IT	NO_OBJECT_SPECIFIED	Per favore, sceglie un oggetto che vuoi cercare.
+it-IT	NO_NAME_SPECIFIED	Mi dici che persona stai cercando?
+it-IT	NO_NAME_SPECIFIED	Non ho sentito che persona stai cercando. Lo potresti ripetere?
+it-IT	NO_NAME_SPECIFIED	Per favore, sceglie una persona che vuoi cercare.
+it-IT	INVALID_OBJECT	Scusami, non conosco questo oggetto. Puoi intentare di nuovo?
+it-IT	INVALID_OBJECT	Non ho mai sentito di questo oggetto. Proviamo qualcos’altro?
+it-IT	INVALID_OBJECT	Sono contento che sai cos’è. Io no. Proviamo di nuovo.
+it-IT	INVALID_NAME	Non ho mai sentito questo nome. Per favore intentalo di nuovo.
+it-IT	INVALID_NAME	Non so chi è. Provalo di nuovo.
+it-IT	INVALID_NAME	Chi è questa persona? Intentiamo di nuovo.
+nl-NL	INVALID_INSTRUCTION_ERROR	Sorry, dat heb ik niet helemaal begrepen. Kun je dat nog een keer zeggen?
+nl-NL	INVALID_INSTRUCTION_ERROR	Sorry, kun je dat alstublieft herhalen?
+nl-NL	INVALID_INSTRUCTION_ERROR	Mijn excuses, ik ben niet bekend met dat commando. Laten we het opnieuw proberen.
+nl-NL	NO_OBJECT_SPECIFIED	Ik weet niet naar welk object ik moet zoeken. Kun je dit specificeren?
+nl-NL	NO_OBJECT_SPECIFIED	Kun je een object opgeven waar ik naar moet zoeken?
+nl-NL	NO_OBJECT_SPECIFIED	Geef een object op waar ik naar moet zoeken.
+nl-NL	NO_NAME_SPECIFIED	Ik weet niet naar welke persoon ik moet zoeken. Kun je dit specificeren?
+nl-NL	NO_NAME_SPECIFIED	Kun je een persoon opgeven waar ik naar moet zoeken?
+nl-NL	NO_NAME_SPECIFIED	Geef aan naar welke persoon ik moet zoeken.
+nl-NL	INVALID_OBJECT	Sorry, ik weet niet wat dat object is. Kun je het opnieuw proberen?
+nl-NL	INVALID_OBJECT	Ik heb helaas nog nooit van dit object gehoord. Laten we iets anders proberen.
+nl-NL	INVALID_OBJECT	Blij dat je weet wat dat object is. Ik niet. Laten we het opnieuw proberen.
+nl-NL	INVALID_NAME	Ik ken deze persoon niet. Probeer het alstublieft opnieuw
+nl-NL	INVALID_NAME	Nooit van die persoon gehoord. Kunt u het nog een keer proberen?
+nl-NL	INVALID_NAME	Wie is deze persoon? Laten we het opnieuw proberen.
+en-EN	FACE_TRAINING	Ok, getting ready to learn a new face.
+de-DE	FACE_TRAINING	Ok, ich bin bereit ein neues Gesicht zu erlernen.
+es-ES	FACE_TRAINING	Dale, estoy listo para aprender una cara nueva.
+it-IT	FACE_TRAINING	Eccoci qua, sono pronto per imparare una cara nuova.
+nl-NL	FACE_TRAINING	Ok prima, ik ben klaar om een nieuw gezicht te leren.
+en-EN	FACE_NAME	Please tell me your name.
+de-DE	FACE_NAME	Bitte verrate mir deinen Namen.
+es-ES	FACE_NAME	Por favor dime tu nombre.
+it-IT	FACE_NAME	Per favore dimmi il tuo nome.
+nl-NL	FACE_NAME	Hoe heet je?
+en-EN	FACE_VERIFICATION	Is that correct?
+de-DE	FACE_VERIFICATION	Ist das richtig?
+es-ES	FACE_VERIFICATION	Es correcto?
+it-IT	FACE_VERIFICATION	E corretto?
+nl-NL	FACE_VERIFICATION	Klopt dat?
+en-EN	FACE_IN_FRAME	Please move, so that your face is visible on the display. When you’re ready, please say ready.
+de-DE	FACE_IN_FRAME	Bitte bewege dich so, dass dein Gesicht auf dem Bildschirm gut sichtbar ist. Sag bereit.
+es-ES	FACE_IN_FRAME	Por favor muevete asi que estas bien visible en la pantalla. Dime listo cuando estes listo.
+it-IT	FACE_IN_FRAME	Per favore muoviti cosi que ti vedi bene sullo schermo. Dimmi pronto quando sei pronto.
+nl-NL	FACE_IN_FRAME	Alsjeblieft beweg je zodat je jezelf op de beeldscherm kan zien. Zeg klaar als je klaar bent.
+en-EN	FACE_TRAINING_DONE	Face training complete.
+de-DE	FACE_TRAINING_DONE	Gesichtserkennung abgeschlossen.
+es-ES	FACE_TRAINING_DONE	Ya me recuerdo de ti.
+it-IT	FACE_TRAINING_DONE	Mi ricordero di te.
+nl-NL	FACE_TRAINING_DONE	Ik zal je nu herinneren.
+en-EN	FEEDBACK_NEEDED	I don’t know this object. Did you mean to look for any of these related objects instead: 
+en-EN	ACTIVATE	De Niro, activating.
+de-DE	ACTIVATE	De Niro aktivieren.
+es-ES	ACTIVATE	De Niro se esta activando.
+nl-NL	ACTIVATE	De Niro aktiveeren
+it-IT	ACTIVATE	De Niro si sta attivando.
+en-EN	PASS_MESSAGE	Who would you like to pass a message to?
+de-DE	PASS_MESSAGE	An wen würdest du gerne eine Nachricht senden?
+es-ES	PASS_MESSAGE	A quien le quieres mandar un mensaje?
+nl-NL	PASS_MESSAGE	Aan wie wil je een bericht sturen?
+it-IT	PASS_MESSAGE	A chi le vuoi mandare un messaggio?
+en-EN	DELIVER_MESSAGE	Let me check your messages for you.
+de-DE	DELIVER_MESSAGE	Lass mich schauen ob du neue Nachrichten hast.
+es-ES	DELIVER_MESSAGE	Dejame ver si tienes mensajes nuevos
+nl-NL	DELIVER_MESSAGE	Laat me kijken of je nieuwe berichten hebt.
+it-IT	DELIVER_MESSAGE	Lasciami veder se hai dei messaggi nuovi.
+en-EN	ASK_MESSAGE	Thank you, and what should that message be?
+de-DE	ASK_MESSAGE	Danke, und wie lautet die Nachricht?
+es-ES	ASK_MESSAGE	Gracias, y cual es el mensaje?
+nl-NL	ASK_MESSAGE	Bedankt, en wat is de bericht?
+it-IT	ASK_MESSAGE	Grazie, y com’e il messaggio?
+en-EN	CONFIRM_MESSAGE	Thanks. I will pass it on.
+de-DE	CONFIRM_MESSAGE	Danke, ich werde es ausrichten.
+es-ES	CONFIRM_MESSAGE	Gracias, se lo voy a decir.
+nl-NL	CONFIRM_MESSAGE	Bedankt, ik ga het doorgeven.
+it-IT	CONFIRM_MESSAGE	Grazie, glielo dico.
+en-EN	PLAY_MESSAGE	You have a new message.
+de-DE	PLAY_MESSAGE	Du hast eine neue Nachricht.
+es-ES	PLAY_MESSAGE	Tienes un mensaje nuevo.
+nl-NL	PLAY_MESSAGE	Jij hebt een nieuw breicht.
+it-IT	PLAY_MESSAGE	Hai un messaggio nuovo.
+en-EN	NO_ID	Please present your Imperial College ID.
+de-DE	NO_ID	Bitte zeige deine Imperial College Karte.
+es-ES	NO_ID	Por favor muestra tu cedula de Imperial College.
+nl-NL	NO_ID	Alsjeblieft laat je Imperial College ID zien.
+it-IT	NO_ID	Per favore, mostra la tua carta d’identificazione di Imperial College.
+en-EN	NOT_REAL	You are not the real {}. They warned me about you. Do you want to try again?
+de-DE	NOT_REAL	Du bist nicht der echte {}. Ich wurde vor dir gewarnt. Möchtest du es noch einmal probieren?
+es-ES	NOT_REAL	No eres el {} verdadero. Me hablaron de ti. Quieres intentarlo de nuevo?
+nl-NL	NOT_REAL	Jij bent niet de echte {}. Ik heb van je al gehoord. Wil je het nog een keer proberen?
+it-IT	NOT_REAL	Non sei il {} vero. Mi hanno detto che vendresti. Vuoi provarlo di nuovo?
+en-EN	NO_PERSON	I can’t see {}. Do you want to continue?
+de-DE	NO_PERSON	Ich kann {} nicht sehen. Willst du weitermachen?
+es-ES	NO_PERSON	No puedo ver {}. Quieres continuar?
+nl-NL	NO_PERSON	Ik kan {} niet zien. Wil je doorgaan?
+it-IT	NO_PERSON	Non posso vedere {}. Vuoi seguire?

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!--
+Launch file for Speech Interpreter stack.
+author: Harry Butt
+date: 03/19
+-->
+
+<launch>
+
+    <!-- Launch speech recognition server -->
+    <node pkg="interpreter" type="interpreter_service.py" name="interpreter"/>
+
+
+</launch>

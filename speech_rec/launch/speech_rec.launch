@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!--
+Launch file for Speech Recognition stack.
+author: Fabian Falck
+date: 04/18
+-->
+
+<launch>
+
+    <!-- Launch speech recognition server -->
+    <node pkg="speech_rec" type="google_speech_rec_service.py" name="speech_recognition"
+      output="screen"/>
+
+
+</launch>

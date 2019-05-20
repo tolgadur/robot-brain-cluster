@@ -1,0 +1,13 @@
+int8 instruction_id
+---
+int8 instruction_id
+string[] type
+string[] label
+string[] owner
+bool[] real
+float32[] confidence
+int16[] upper_x
+int16[] upper_y
+int16[] lower_x
+int16[] lower_y
+int8[] camera

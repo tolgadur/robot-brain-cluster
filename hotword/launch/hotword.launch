@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!--
+Launch file for Speech Recognition stack.
+author: Fabian Falck
+date: 04/18
+-->
+
+<launch>
+
+    <!-- Launch Hotword Detection server -->
+    <node pkg="hotword" type="hotword_service.py" name="hotword_detection"/>
+
+
+</launch>
