@@ -1,7 +1,7 @@
 <launch>
-    <machine name="robin20" address="192.168.0.115" password="deniro" env-loader="~/img_workspace/cluster.sh" user="robin" timeout="30" > </machine>
+    <machine name="robin20" address="192.168.0.115" password="" env-loader="~/img_workspace/cluster.sh" user="robin" timeout="30" > </machine>
     <node machine="robin20" name="object_detection_left" pkg="yolo_pkg" type="yolo_publisher_IGNORE.py" cwd="node" args="usb_cam_left/image_raw 0" />
-    <machine name="robin8" address="192.168.0.120" password="deniro" env-loader="~/img_workspace/cluster.sh" user="robin" timeout="30" > </machine>
+    <machine name="robin8" address="192.168.0.120" password="" env-loader="~/img_workspace/cluster.sh" user="robin" timeout="30" > </machine>
     <node machine="robin8" name="object_detection_right" pkg="yolo_pkg" type="yolo_publisher_IGNORE.py" cwd="node" args="usb_cam_right/image_raw 2" />
     <node machine="robin8" name="object_detection_middle" pkg="yolo_pkg" type="yolo_publisher_IGNORE.py" cwd="node" args="usb_cam_middle/image_raw 1" />
 </launch>

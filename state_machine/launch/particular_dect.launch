@@ -1,5 +1,5 @@
 <launch>
-    <machine name="robin_12" address="192.168.0.108" password="deniro"
+    <machine name="robin_12" address="192.168.0.108" password=""
             env-loader="~/neuronerds/cluster.sh" user="robin" timeout="30" > </machine>
 <!--
     <node machine="robin_12" name="find_object_2d_left" pkg="find_object_2d" type="find_object_2d" cwd="node">

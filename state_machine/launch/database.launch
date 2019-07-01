@@ -1,5 +1,5 @@
 <launch>
     <!-- <machine name="robin16" address="192.168.0.115" password="deniro" user="robin" timeout="30" > </machine> -->
-    <machine name="robin16" address="192.168.0.115" password="deniro" env-loader="~/img_workspace/cluster.sh" user="robin" timeout="30" > </machine>
+    <machine name="robin16" address="192.168.0.115" password="" env-loader="~/img_workspace/cluster.sh" user="robin" timeout="30" > </machine>
     <node machine="robin16" name="database" pkg="yolo_pkg" type="database_multi_cam.py" cwd="node"/>
 </launch>

@@ -1,5 +1,5 @@
 <launch>
-    <machine name="robin_6" address="192.168.0.228" password="robinlab"
+    <machine name="robin_6" address="192.168.0.228" password=""
             env-loader="~/neuronerds/cluster.sh" user="robin" timeout="30" > </machine>
     <node machine="robin_6" name="face_dect_left" pkg="face_spoofing" type="recognition_runner_left.py" cwd="node" output='screen' args="usb_cam_left/image_raw 0" respawn="true"/>
     <node machine="robin_6" name="face_dect_middle" pkg="face_spoofing" type="recognition_runner_left.py" cwd="node" output='screen' args="usb_cam_middle/image_raw 1" respawn="true"/>
